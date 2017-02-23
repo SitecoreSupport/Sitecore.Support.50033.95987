@@ -41,27 +41,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Client.8.1.0\lib\Sitecore.Client.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Client.8.1.1\lib\Sitecore.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.ExperienceEditor.Speak.8.1.0\lib\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.ExperienceEditor.Speak.8.1.1\lib\Sitecore.ExperienceEditor.Speak.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.ExperienceEditor.Speak.Ribbon.8.1.0\lib\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.ExperienceEditor.Speak.Ribbon.8.1.1\lib\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.8.1.0\lib\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.1.1\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Mvc.8.1.0\lib\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Mvc.8.1.1\lib\Sitecore.Mvc.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Speak.Client, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Speak.Client.8.1.0\lib\Sitecore.Speak.Client.dll</HintPath>
+    <Reference Include="Sitecore.Speak.Client, Version=2.0.811.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Speak.Client.8.1.1\lib\Sitecore.Speak.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -89,8 +89,9 @@
     <Content Include="App_Config\Include\zzz\Sitecore.Support.50033.95987.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <Content Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SelectLanguageButton\SelectLanguageButton.cshtml" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\sc81u1.pubxml" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup />
