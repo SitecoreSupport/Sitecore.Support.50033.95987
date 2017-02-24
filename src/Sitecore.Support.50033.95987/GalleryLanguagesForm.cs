@@ -77,18 +77,9 @@ namespace Sitecore.Support
                             {
                                 int length = item3.Versions.GetVersionNumbers(false).Length;
 
-                                string str2;
-                                if (item3.IsFallback)
-                                {
-                                    str2 = Translate.Text("Fallback version");
-                                }
-                                else
-                                {
-
-                                    str2 = (length == 1)
+                                string str2 = (length == 1)
                                         ? Translate.Text("1 version.")
                                         : Translate.Text("{0} versions.", new object[] {length.ToString()});
-                                }
                                 CultureInfo cultureInfo = language.CultureInfo;
                                     control["Header"] = cultureInfo.DisplayName + " : " + cultureInfo.NativeName;
                                     control["Description"] = str2;
