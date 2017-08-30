@@ -1,9 +1,11 @@
 ﻿using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
+using Sitecore.Globalization;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Shell.Framework.Commands.Ribbon;
 using Sitecore.Support;
 using System;
+using System.Globalization;
 
 namespace Sitecore.Support.Shell.Framework.Commands.Ribbon
 {
